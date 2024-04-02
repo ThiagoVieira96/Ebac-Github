@@ -97,7 +97,7 @@ def main():
     #Criando o botão de subir os arquivos
     st.sidebar.write("## Suba o arquivo")
     st.sidebar.write("Bank marketing data")
-    data_file_1 = "bank-additional-full.csv"
+    data_file_1 = "https://github.com/ThiagoVieira96/Ebac-Github/blob/fa072570f6b4fec3605c0d11b3c90d647a2913f2/bank-additional-full.csv"
     
 # Verifica se há conteúdo carregado na aplicação
     if (data_file_1 is not None):
